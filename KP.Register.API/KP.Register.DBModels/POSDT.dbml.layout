@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 18.75" name="POSDT">
+  <DataContextMoniker Name="/POSDTDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cf85a2cd-8f48-47c9-9ad1-8e2477e08787" absoluteBounds="5, 0.5, 2, 5.8092268880208326">
+      <DataClassMoniker Name="/POSDTDataContext/df_tourhdr" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f4531582-26d9-459c-854c-cb17e02b7585" absoluteBounds="5.015, 0.96, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f540377-7011-45f0-a309-705b1da4c16b" absoluteBounds="7.25, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/POSDTDataContext/df_mem_notify" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d44f39c-aab5-4bad-85c1-8fa065174cdf" absoluteBounds="7.2650000000000006, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="818cf316-519c-4c56-b8c2-0e83bf6c32a3" absoluteBounds="7.25, 2.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/POSDTDataContext/df_customer_attr" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c6d09c8-5c39-42de-b882-3a80d114ccba" absoluteBounds="7.265, 2.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e05755a0-e59c-4e0d-b7b7-cba2287391a1" absoluteBounds="5, 6.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/POSDTDataContext/runno_tourhdr" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3b67714-dbaf-4a6d-8c27-2c70d06dab28" absoluteBounds="5.015, 7.0850000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8cb058e5-f29a-4bc6-bd08-b731a53c5758" absoluteBounds="7.25, 5.625, 2, 12.9243798828125">
+      <DataClassMoniker Name="/POSDTDataContext/df_branch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9eda7ece-29fb-4e24-b1f3-1d14bdbdccff" absoluteBounds="7.265, 6.085, 1.9700000000000002, 12.3643798828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ccc788fc-998a-42e9-83d2-3229188bf6af" absoluteBounds="0.5, 0.5, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/POSDTDataContext/df_customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="399e7fd6-5254-4eda-8cae-94a2caf1f72c" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7e69b31-1624-41c0-bd14-061bd379d9e4" absoluteBounds="2.875, 0.5, 2, 7.1553369140625">
+      <DataClassMoniker Name="/POSDTDataContext/df_sohdr" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32efafa5-269d-447f-b5cf-b8570ba98fd0" absoluteBounds="2.8899999999999997, 0.96, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 3.98151774088542); (2.875 : 3.98151774088542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDTDataContext/df_customer/df_customer_df_sohdr" />
+      <nodes>
+        <classShapeMoniker Id="ccc788fc-998a-42e9-83d2-3229188bf6af" />
+        <classShapeMoniker Id="b7e69b31-1624-41c0-bd14-061bd379d9e4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0a5d0db8-464e-4457-b2a7-781bb10607c4" absoluteBounds="0.625, 8.875, 2, 6.0015283203125">
+      <DataClassMoniker Name="/POSDTDataContext/df_agent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e658f1d9-7300-42e8-97a5-0e8326b0b92a" absoluteBounds="0.63999999999999968, 9.335, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

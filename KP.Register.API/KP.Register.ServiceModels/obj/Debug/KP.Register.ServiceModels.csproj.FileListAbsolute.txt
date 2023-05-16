@@ -1,0 +1,42 @@
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Register.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Register.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Customer.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Common.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.DBModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Caller.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\MessagingToolkit.Barcode.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Customer.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Common.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Common.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.DBModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.DBModels.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Caller.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.csprojAssemblyReference.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.csproj.CoreCompileInputs.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.csproj.CopyComplete
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.csproj.CoreCompileInputs.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Register.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Register.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Customer.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Customer.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.csprojAssemblyReference.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.csproj.CopyComplete
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\obj\Debug\KP.Register.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Common.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.DBModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Caller.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\MessagingToolkit.Barcode.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Common.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Common.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.DBModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.eService.DBModels.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\KP.Caller.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.ServiceModels\bin\Debug\Newtonsoft.Json.xml

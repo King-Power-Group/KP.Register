@@ -1,0 +1,347 @@
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Collections.Immutable.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\VBCSCompiler.exe
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\ApplicationInsights.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csc.exe
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csc.exe.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csc.rsp
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csi.exe
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csi.exe.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csi.rsp
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.AppContext.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Console.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.Compression.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.FileSystem.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.Pipes.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.AccessControl.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Claims.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.ValueTuple.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.XPath.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\vbc.exe
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\vbc.exe.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\vbc.rsp
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\VBCSCompiler.exe.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Antlr3.Runtime.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\CommonServiceLocator.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.SqlServer.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Caller.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Common.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Business.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.DBModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Business.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.IServices.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.DependencyCollector.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.Web.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.WindowsServer.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.ApplicationInsights.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Newtonsoft.Json.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Owin.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Swashbuckle.Core.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Net.Http.Formatting.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Cors.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Helpers.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Cors.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Owin.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.WebHost.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Mvc.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Optimization.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Razor.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Deployment.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Razor.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Abstractions.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Configuration.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Container.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.Configuration.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.RegistrationByConvention.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.ServiceLocation.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\WebActivatorEx.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\WebGrease.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\MessagingToolkit.Barcode.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.DBModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Telerik.Reporting.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Report.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.Business.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Common.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Common.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Business.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.DBModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.DBModels.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Business.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.IServices.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Caller.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\CommonServiceLocator.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.SqlServer.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.DependencyCollector.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.Web.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.WindowsServer.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Newtonsoft.Json.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Net.Http.Formatting.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Helpers.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Cors.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Owin.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.WebHost.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Mvc.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Razor.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Deployment.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Razor.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Optimization.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Abstractions.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Configuration.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Container.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.Configuration.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.RegistrationByConvention.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.ServiceLocation.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Antlr3.Runtime.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.DBModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.DBModels.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Telerik.Reporting.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Telerik.Reporting.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Report.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Report.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.Business.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.Business.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.csprojAssemblyReference.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.csproj.CoreCompileInputs.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.csproj.CopyComplete
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.csprojAssemblyReference.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.csproj.CoreCompileInputs.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\ApplicationInsights.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Web.API.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csc.exe
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csc.exe.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csc.rsp
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csi.exe
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csi.exe.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\csi.rsp
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.AppContext.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Console.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.Compression.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.FileSystem.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.IO.Pipes.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.AccessControl.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Claims.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.ValueTuple.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.XPath.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\vbc.exe
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\vbc.exe.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\vbc.rsp
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\VBCSCompiler.exe
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Antlr3.Runtime.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\CommonServiceLocator.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.SqlServer.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Caller.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Common.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Business.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.DBModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Business.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.IServices.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.Web.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Newtonsoft.Json.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Owin.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Swashbuckle.Core.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Net.Http.Formatting.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Cors.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Helpers.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Cors.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Owin.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.WebHost.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Mvc.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Optimization.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Razor.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Razor.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Abstractions.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Configuration.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Container.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.Configuration.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.RegistrationByConvention.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.ServiceLocation.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\WebActivatorEx.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\WebGrease.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\MessagingToolkit.Barcode.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.DBModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Telerik.Reporting.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Report.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.Business.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Caller.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Common.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Common.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Business.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.DBModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.DBModels.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.Business.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Register.IServices.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\CommonServiceLocator.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\EntityFramework.SqlServer.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.Web.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Newtonsoft.Json.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Net.Http.Formatting.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Helpers.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Cors.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.Owin.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Http.WebHost.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Mvc.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Razor.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.WebPages.Razor.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Web.Optimization.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Abstractions.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Configuration.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Container.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.Interception.Configuration.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.RegistrationByConvention.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Unity.ServiceLocation.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Antlr3.Runtime.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.DBModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.DBModels.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Telerik.Reporting.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\Telerik.Reporting.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Report.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.Customer.Report.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.Business.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.Business.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\bin\KP.eService.Business.XmlSerializers.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.csproj.CopyComplete
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Web.API\obj\Debug\KP.Register.Web.API.pdb

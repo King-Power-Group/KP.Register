@@ -1,0 +1,8 @@
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.csprojAssemblyReference.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.csproj.CoreCompileInputs.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.AssemblyInfoInputs.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.AssemblyInfo.cs
+C:\Projects\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.csprojAssemblyReference.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.csproj.CoreCompileInputs.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.AssemblyInfoInputs.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.API\obj\Debug\netcoreapp2.0\KP.Register.API.AssemblyInfo.cs

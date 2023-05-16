@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 21.125" name="Member">
+  <DataContextMoniker Name="/MemberDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1b72e605-5b00-4a21-86ed-11bdf16983bc" absoluteBounds="1.75, 1, 2, 19.847231445312502">
+      <DataClassMoniker Name="/MemberDataContext/df_member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e36ef30-6868-4988-adb7-98521a553e40" absoluteBounds="1.7649999999999997, 1.46, 1.9700000000000002, 19.2872314453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3fc9d9bc-81d8-42a3-b1dd-44cc92533c69" absoluteBounds="4.125, 1, 2, 4.2708154296875">
+      <DataClassMoniker Name="/MemberDataContext/df_cardhist" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41ed0eac-a1dc-4171-a94d-6f78ef3232af" absoluteBounds="4.14, 1.46, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e43628d-9e8f-45a5-8440-bc312adf761d" absoluteBounds="6.5, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MemberDataContext/MAST_CardGroup_member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1fb4978b-3f36-49c1-a52b-017804746824" absoluteBounds="6.515, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f0a2c119-85c9-4c4c-b0fd-f1795e546d38" absoluteBounds="6.5, 3, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MemberDataContext/MAST_CardStatus_member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96936b85-afb9-4884-ad47-96e329a90fca" absoluteBounds="6.515, 3.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3ce66a66-4456-4638-9f31-21930c343b88" absoluteBounds="4.25, 5.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/MemberDataContext/mst_reason_member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c30e394-92b3-47cc-bc59-10852e08b01c" absoluteBounds="4.265, 6.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.125 : 3.88544840494792); (6.5 : 3.88544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MemberDataContext/df_cardhist/df_cardhist_MAST_CardStatus" />
+      <nodes>
+        <classShapeMoniker Id="3fc9d9bc-81d8-42a3-b1dd-44cc92533c69" />
+        <classShapeMoniker Id="f0a2c119-85c9-4c4c-b0fd-f1795e546d38" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.1875 : 5.2708154296875); (5.1875 : 5.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MemberDataContext/df_cardhist/df_cardhist_mst_reason" />
+      <nodes>
+        <classShapeMoniker Id="3fc9d9bc-81d8-42a3-b1dd-44cc92533c69" />
+        <classShapeMoniker Id="3ce66a66-4456-4638-9f31-21930c343b88" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.125 : 1.88544840494792); (6.5 : 1.88544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MemberDataContext/df_cardhist/df_cardhist_MAST_CardGroup" />
+      <nodes>
+        <classShapeMoniker Id="3fc9d9bc-81d8-42a3-b1dd-44cc92533c69" />
+        <classShapeMoniker Id="0e43628d-9e8f-45a5-8440-bc312adf761d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="cf6b8ba3-3143-460d-b6d2-121005f2c1cb" absoluteBounds="6.625, 5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/MemberDataContext/MAST_LVCardType_member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="65a31aa5-4f7e-41f5-ae17-aa6f5bcf164e" absoluteBounds="6.64, 5.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.624998 : 5.2708154296875); (4.624998 : 5.4628154296875); (5.10416666666667 : 5.4628154296875 : JumpStart); (5.27083333333333 : 5.4628154296875 : JumpEnd); (6.433 : 5.4628154296875); (6.433 : 6.17390055338542); (6.625 : 6.17390055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MemberDataContext/df_cardhist/df_cardhist_MAST_LVCardType" />
+      <nodes>
+        <classShapeMoniker Id="3fc9d9bc-81d8-42a3-b1dd-44cc92533c69" />
+        <classShapeMoniker Id="cf6b8ba3-3143-460d-b6d2-121005f2c1cb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.125 : 3.13540771484375); (3.75 : 3.13540771484375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MemberDataContext/df_cardhist/df_cardhist_df_member" />
+      <nodes>
+        <classShapeMoniker Id="3fc9d9bc-81d8-42a3-b1dd-44cc92533c69" />
+        <classShapeMoniker Id="1b72e605-5b00-4a21-86ed-11bdf16983bc" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

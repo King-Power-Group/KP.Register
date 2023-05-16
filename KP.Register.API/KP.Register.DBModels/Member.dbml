@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Newmember" Class="MemberDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=devdata;Initial Catalog=Newmember;Persist Security Info=True;User ID=sa" SettingsObjectName="KP.Register.DBModels.Properties.Settings" SettingsPropertyName="NewmemberConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.df_member" Member="df_members">
+    <Type Name="df_member">
+      <Column Name="member_id" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="shopping_card" Type="System.String" DbType="Char(13) NOT NULL" CanBeNull="false" />
+      <Column Name="title_id" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="ename" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="tname" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="sex" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="date_of_birth" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="id_card" Type="System.String" DbType="Char(13) NOT NULL" CanBeNull="false" />
+      <Column Name="card_type_id" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="mem_group_id" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="program_id" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="subprogram_id" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="bussiness_id" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="credit_kpg" Type="System.String" DbType="Char(16) NOT NULL" CanBeNull="false" />
+      <Column Name="condf_id" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="refpro_id" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="emboss_id" Type="System.String" DbType="Char(16) NOT NULL" CanBeNull="false" />
+      <Column Name="emboss_name" Type="System.String" DbType="Char(27) NOT NULL" CanBeNull="false" />
+      <Column Name="discount" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="passport_no" Type="System.String" DbType="Char(30) NOT NULL" CanBeNull="false" />
+      <Column Name="country_code" Type="System.String" DbType="Char(3) NOT NULL" CanBeNull="false" />
+      <Column Name="religion" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="addr1" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="addr2" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="addr3" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="mobile1" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="main_id" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+      <Column Name="member_ref" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+      <Column Name="receive_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="apply_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="old_member_id" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="staff_flag" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="shared_flag" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="del_flag" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="add_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TempCard" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="c_addr1" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="c_addr2" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="c_addr3" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="haddr_number" Type="System.String" DbType="Char(15) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_bldg" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_moo" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_soi" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_road" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_subdistrict" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_district" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_city" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_zip_code" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_tel1" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_tel1_ext" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_tel2" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_tel2_ext" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_fax" Type="System.String" DbType="Char(30) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_pct" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="haddr_pct_ext" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="mobile2" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="company_name" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_number" Type="System.String" DbType="Char(15) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_bldg" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_floor" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_dept" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_soi" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_road" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_subdistrict" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_district" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_city" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_zip_code" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_tel" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_fax" Type="System.String" DbType="Char(30) NOT NULL" CanBeNull="false" />
+      <Column Name="caddr_telext" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_number" Type="System.String" DbType="Char(15) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_bldg" Type="System.String" DbType="Char(100) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_moo" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_soi" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_road" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_subdistrict" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_district" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_city" Type="System.String" DbType="Char(6) NOT NULL" CanBeNull="false" />
+      <Column Name="maddr_zip_code" Type="System.String" DbType="Char(5) NOT NULL" CanBeNull="false" />
+      <Column Name="w_position" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="mailling_addr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="staff_source" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="sup_verified" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="step_no" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="uncomplete_info" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="reprint_emboss" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="prefix_emboss" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="remark" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" />
+      <Column Name="user_add" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="user_update" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="FlagGenAddress" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FlagNoSMS" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ReceivedCardAt" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="time_stamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Column Name="RenewDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Foreigner" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Member_Lead" Type="System.String" DbType="Char(8)" CanBeNull="true" />
+      <Association Name="df_cardhist_df_member" Member="df_cardhist" ThisKey="member_id" OtherKey="member_id" Type="df_cardhist" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.df_cardhist" Member="df_cardhists">
+    <Type Name="df_cardhist">
+      <Column Name="CardTypeCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="member_id" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="runno" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="emboss_id" Type="System.String" DbType="Char(16) NOT NULL" CanBeNull="false" />
+      <Column Name="emboss_name" Type="System.String" DbType="Char(27) NOT NULL" CanBeNull="false" />
+      <Column Name="start_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="end_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="valid_term" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="issue_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="card_status" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="reason_id" Type="System.String" DbType="Char(4) NOT NULL" CanBeNull="false" />
+      <Column Name="shopping_card" Type="System.String" DbType="Char(13) NOT NULL" CanBeNull="false" />
+      <Column Name="card_type_id" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="user_add" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="user_update" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="add_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="time_stamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="df_cardhist_MAST_CardStatus" Member="MAST_CardStatus_members" ThisKey="card_status" OtherKey="CardStatus" Type="MAST_CardStatus_member" />
+      <Association Name="df_cardhist_mst_reason" Member="mst_reason_members" ThisKey="reason_id" OtherKey="reason_id" Type="mst_reason_member" />
+      <Association Name="df_cardhist_MAST_CardGroup" Member="MAST_CardGroup_members" ThisKey="CardTypeCode" OtherKey="CardGroupCode" Type="MAST_CardGroup_member" />
+      <Association Name="df_cardhist_MAST_LVCardType" Member="MAST_LVCardType_members" ThisKey="card_type_id" OtherKey="card_type_id" Type="MAST_LVCardType_member" />
+      <Association Name="df_cardhist_df_member" Member="df_members" ThisKey="member_id" OtherKey="member_id" Type="df_member" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_CardGroup" Member="MAST_CardGroup_members">
+    <Type Name="MAST_CardGroup_member">
+      <Column Name="CardGroupCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CardGroupName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IsNotLoyalty" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="OrderNo" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="df_cardhist_MAST_CardGroup" Member="df_cardhist" ThisKey="CardGroupCode" OtherKey="CardTypeCode" Type="df_cardhist" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_CardStatus" Member="MAST_CardStatus_members">
+    <Type Name="MAST_CardStatus_member">
+      <Column Name="CardStatus" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StatusCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="StatusName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="StatusMessage" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="df_cardhist_MAST_CardStatus" Member="df_cardhist" ThisKey="CardStatus" OtherKey="card_status" Type="df_cardhist" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mst_reason" Member="mst_reason_members">
+    <Type Name="mst_reason_member">
+      <Column Name="reason_id" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="reason_desc" Type="System.String" DbType="Char(60) NOT NULL" CanBeNull="false" />
+      <Column Name="del_flag" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="remark" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" />
+      <Column Name="add_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="user_add" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="user_update" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="time_stamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="df_cardhist_mst_reason" Member="df_cardhist" ThisKey="reason_id" OtherKey="reason_id" Type="df_cardhist" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_LVCardType" Member="MAST_LVCardType_members">
+    <Type Name="MAST_LVCardType_member">
+      <Column Name="card_type_id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="card_type_code" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="discount" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="require_ref" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="card_group_id" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="del_flag" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Association Name="df_cardhist_MAST_LVCardType" Member="df_cardhist" ThisKey="card_type_id" OtherKey="card_type_id" Type="df_cardhist" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

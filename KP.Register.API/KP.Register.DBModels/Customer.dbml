@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CustomerData" Class="CustomerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=devdata;Initial Catalog=CustomerData;Persist Security Info=True;User ID=sa" SettingsObjectName="KP.Register.DBModels.Properties.Settings" SettingsPropertyName="CustomerDataConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CONS_SubBranch" Member="CONS_SubBranches">
+    <Type Name="CONS_SubBranch">
+      <Column Name="SubBranchCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SubBranchName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IsCanceled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Column Name="BranchNo" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="ConfigSC" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CutOffTime" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaxFlightDay" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="CONS_SubBranch_DB_Connection" Member="DB_Connections" ThisKey="BranchNo" OtherKey="DbBranch" Type="DB_Connection" />
+      <Association Name="CUSD_ShoppingCard_CONS_SubBranch" Member="CUSD_ShoppingCard" ThisKey="ConfigSC" OtherKey="ConfigSC" Type="CUSD_ShoppingCard" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CONS_Flight" Member="CONS_Flights">
+    <Type Name="CONS_Flight">
+      <Column Name="SubBranchCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FlightCode" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FlightDesc" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AirlineCode" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="FlightNo" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DestAirportCode" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ArrDepAirportCode" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ArrDepTerminal" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="IsOpenFlight" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="D1" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="D2" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="D3" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="D4" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="D5" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="D6" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="D7" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ArrDepTime" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="IsCanceled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PickupCode" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="CharterFlight" Type="System.String" DbType="NVarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="IsOnlyLocal" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ChangeBy" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ChangeDT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_Promotion" Member="CUSD_Promotions">
+    <Type Name="CUSD_Promotion">
+      <Column Name="PromotionKey" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PromotionCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PromotionName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="PromotionDesc" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="SubBranchCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="EffectiveDatKey" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsCoupon" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsHot" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsCampaign" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsCanceled" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Association Name="CUSD_Promotion_CUSD_PromotionAttribute" Member="CUSD_PromotionAttributes" ThisKey="PromotionKey" OtherKey="PromotionKey" Type="CUSD_PromotionAttribute" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_PromotionAttribute" Member="CUSD_PromotionAttributes">
+    <Type Name="CUSD_PromotionAttribute">
+      <Column Name="ProAttKey" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PromotionKey" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Attribute" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ValueType" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="ValueString" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="ValueDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ValueDecimal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ValueBoolean" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsCancel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Association Name="CUSD_Promotion_CUSD_PromotionAttribute" Member="CUSD_Promotion" ThisKey="PromotionKey" OtherKey="PromotionKey" Type="CUSD_Promotion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_Person" Member="CUSD_Persons">
+    <Type Name="CUSD_Person">
+      <Column Name="PersonId" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NameEn" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DOB" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="CitizenId" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ShoppingCard" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ChangeId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="CUSD_Person_CUSD_PersonAttribute" Member="CUSD_PersonAttributes" ThisKey="PersonId" OtherKey="PersonId" Type="CUSD_PersonAttribute" />
+      <Association Name="CUSD_Person_CUSD_PersonHistory" Member="CUSD_PersonHistories" ThisKey="PersonId" OtherKey="PersonId" Type="CUSD_PersonHistory" />
+      <Association Name="CUSD_LogChange_CUSD_Person" Member="CUSD_LogChange" ThisKey="ChangeId" OtherKey="ChangeId" Type="CUSD_LogChange" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_PersonAttribute" Member="CUSD_PersonAttributes">
+    <Type Name="CUSD_PersonAttribute">
+      <Column Name="PerAttId" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PersonId" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="Attribute" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ValueType" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="ValueString" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="ValueDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ValueDecimal" Type="System.Decimal" DbType="Decimal(18,4)" CanBeNull="true" />
+      <Column Name="ValueBoolean" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsCancel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Association Name="CUSD_Person_CUSD_PersonAttribute" Member="CUSD_Person" ThisKey="PersonId" OtherKey="PersonId" Type="CUSD_Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_ShoppingCard" Member="CUSD_ShoppingCards">
+    <Type Name="CUSD_ShoppingCard">
+      <Column Name="ConfigSC" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PrefixShopCard" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RunningNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="SizeCardNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Association Name="CUSD_ShoppingCard_CONS_SubBranch" Member="CONS_SubBranches" ThisKey="ConfigSC" OtherKey="ConfigSC" Type="CONS_SubBranch" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_LogChange" Member="CUSD_LogChanges">
+    <Type Name="CUSD_LogChange">
+      <Column Name="ChangeId" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LastChangeId" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="ChangeBy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ChangeDT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SourceCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CUSD_LogChange_CUSD_Person" Member="CUSD_Persons" ThisKey="ChangeId" OtherKey="ChangeId" Type="CUSD_Person" />
+      <Association Name="CUSD_LogChange_CUSD_PersonHistory" Member="CUSD_PersonHistories" ThisKey="ChangeId" OtherKey="ChangeId" Type="CUSD_PersonHistory" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_PersonHistory" Member="CUSD_PersonHistories">
+    <Type Name="CUSD_PersonHistory">
+      <Column Name="PerHisId" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PersonId" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="FlightNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FlightDT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FlightType" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="RequestDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ChangeId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Association Name="CUSD_LogChange_CUSD_PersonHistory" Member="CUSD_LogChange" ThisKey="ChangeId" OtherKey="ChangeId" Type="CUSD_LogChange" IsForeignKey="true" />
+      <Association Name="CUSD_Person_CUSD_PersonHistory" Member="CUSD_Person" ThisKey="PersonId" OtherKey="PersonId" Type="CUSD_Person" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DB_Connection" Member="DB_Connections">
+    <Type Name="DB_Connection">
+      <Column Name="ConCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DbType" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DbBranch" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="DbServer" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DbName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DbUser" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DbPass" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsCancel" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="CONS_SubBranch_DB_Connection" Member="CONS_SubBranch" ThisKey="DbBranch" OtherKey="BranchNo" Type="CONS_SubBranch" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_CustCardType" Member="CUSD_CustCardTypes">
+    <Type Name="CUSD_CustCardType">
+      <Column Name="card_type_id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="card_type_code" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="cust_type_code" Type="System.String" DbType="Char(5)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSD_LogErrorRegister" Member="CUSD_LogErrorRegisters">
+    <Type Name="CUSD_LogErrorRegister">
+      <Column Name="LogRegId" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AddDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShoppingCard" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FormCaller" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ClientIP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LogMessage" Type="System.String" DbType="Text" CanBeNull="true" />
+      <Column Name="LogTracking" Type="System.String" DbType="Text" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+    </Type>
+  </Table>
+</Database>

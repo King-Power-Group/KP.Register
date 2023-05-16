@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E39FA403-EC4F-41E2-AF2D-8E2ACF4CB50D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KP.Register.IServices</RootNamespace>
+    <AssemblyName>KP.Register.IServices</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="POS\ITransaction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register\IAction.cs" />
+    <Compile Include="Register\IAgent.cs" />
+    <Compile Include="Register\ICaller.cs" />
+    <Compile Include="Register\ICity.cs" />
+    <Compile Include="Register\ICountry.cs" />
+    <Compile Include="Register\ICustomerType.cs" />
+    <Compile Include="Register\IFlight.cs" />
+    <Compile Include="Register\ILocation.cs" />
+    <Compile Include="Register\IPlatform.cs" />
+    <Compile Include="Register\IProvince.cs" />
+    <Compile Include="Register\IRegister.cs" />
+    <Compile Include="Register\IShipping.cs" />
+    <Compile Include="Register\IShoppingCard.cs" />
+    <Compile Include="Register\ISource.cs" />
+    <Compile Include="Register\ISubAgent.cs" />
+    <Compile Include="Register\ISubbranch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Users\ratta\Documents\GitHub\KP.Caller\KP.Caller\KP.Caller.ServiceModels\KP.Caller.ServiceModels.csproj">
+      <Project>{2fc33d9e-40b9-4011-af35-c0083a6abb0f}</Project>
+      <Name>KP.Caller.ServiceModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Users\ratta\Documents\GitHub\kp.common\KP.Common.csproj">
+      <Project>{29355055-df53-48c2-ba4f-2e717693ad64}</Project>
+      <Name>KP.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\KP.Customer\KP.Customer\KP.Customer.DBModels\KP.Customer.DBModels.csproj">
+      <Project>{F9DB802F-E5C1-43F3-BFAC-E8A2CA36D6B2}</Project>
+      <Name>KP.Customer.DBModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\KP.Customer\KP.Customer\KP.Customer.ServiceModels\KP.Customer.ServiceModels.csproj">
+      <Project>{fb732aed-88e4-4f49-91cd-b7f3e0f88bbe}</Project>
+      <Name>KP.Customer.ServiceModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KP.Register.ServiceModels\KP.Register.ServiceModels.csproj">
+      <Project>{4392e4dd-52f2-4eb5-bba4-88ca1ef2e2cf}</Project>
+      <Name>KP.Register.ServiceModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

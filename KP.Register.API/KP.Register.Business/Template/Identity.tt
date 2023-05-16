@@ -1,0 +1,61 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #> 
+<#@ assembly name="System.Core" #> 
+<#@ assembly name="System.Data" #> 
+<#@ assembly name="System.Data.Linq" #> 
+<#@ assembly name= "$(ProjectDir)\bin\debug\KP.Customer.DBModels.dll" #> 
+<#@ import namespace="System.Linq" #> 
+<#@ import namespace="System.Data.Linq" #> 
+<#@ import namespace="System.Text" #> 
+<#@ import namespace="System.Collections.Generic" #>  
+<#@ import namespace="KP.Customer.DBModels" #> 
+<#@ output extension=".cs" #> 
+using System; 
+using System.Collections.Generic; 
+using System.Linq; 
+using System.Text; 
+using System.Threading.Tasks; 
+ 
+namespace KP.Register.Business.Identity 
+{  
+    public enum Identity 
+    { 
+	 <# 
+      var cn = "Data Source=10.3.0.122;Initial Catalog=CustomerData;Persist Security Info=True;User ID=sa;Password=sql2000"; 
+      var db = new KP.Customer.DBModels.CustomerDataDataContext(cn);  
+      var g = from gs in db.CE_LOVs where gs.LOVGroupCode == "CUSD_Identity" select gs;
+	  foreach ( KP.Customer.DBModels.CE_LOV tmp in g) { 
+	  #> 
+			<#= tmp.LOVCode.Replace(" ","_") #> ,
+     <#} #> 
+	}
+
+	public enum ContactRegister
+	{
+	 	 <# 
+      var c = from cs in db.CE_LOVs where cs.LOVGroupCode == "CUSD_Contact"  select cs;
+	  foreach ( KP.Customer.DBModels.CE_LOV tmp in c) { 
+	  #> 
+			<#= tmp.LOVCode.Replace(" ","_") #> ,
+     <#} #> 
+	}
+
+	public enum PlatformCode
+	{
+		 <# 
+		  var cpt = from cp in db.CE_LOVs where cp.LOVGroupCode.Trim() == "CUSD_Platform"    select cp;
+		  foreach ( KP.Customer.DBModels.CE_LOV tmp in cpt) { 
+		  #> 
+				<#= tmp.LOVCode.Replace(" ","_") #> ,
+		 <#} #> 
+	}
+
+		public enum ActionCode
+	{
+		 <# 
+		  var cat = from ca in db.CE_LOVs where ca.LOVGroupCode == "CUSD_ACTION"     select ca;
+		  foreach ( KP.Customer.DBModels.CE_LOV tmp in cat) { 
+		  #> 
+				<#= tmp.LOVCode.Replace(" ","_") #> ,
+		 <#} #> 
+	}
+}

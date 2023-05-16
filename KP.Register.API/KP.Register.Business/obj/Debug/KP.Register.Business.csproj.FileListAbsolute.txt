@@ -1,0 +1,113 @@
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.Business.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.Business.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Caller.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Common.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Business.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.DBModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.Business.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.DBModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.ServiceModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.IServices.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\PackingData.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\SharedOld.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\MessagingToolkit.Barcode.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.Reporting.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Report.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Newtonsoft.Json.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\ShareControl.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.WinControls.GridView.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.WinControls.UI.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.WinControls.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\C1.Win.C1Input.2.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\C1.Win.C1List.2.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\TelerikCommon.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\stdole.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\PackingData.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\PackingData.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\PackingData.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Common.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Common.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Business.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.DBModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.DBModels.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.Business.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.Business.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.DBModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.DBModels.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.IServices.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Caller.ServiceModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.Reporting.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.Reporting.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Report.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Report.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Newtonsoft.Json.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\ShareControl.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\ShareControl.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\ShareControl.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.WinControls.GridView.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.WinControls.UI.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.WinControls.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\C1.Win.C1Input.2.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\C1.Win.C1List.2.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.csprojAssemblyReference.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.csproj.CoreCompileInputs.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.csproj.CopyComplete
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.csprojAssemblyReference.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.csproj.CoreCompileInputs.cache
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.Business.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.Business.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Caller.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Common.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Business.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.DBModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.Business.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.DBModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.ServiceModels.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.IServices.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\LoyaltyValueData.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\MessagingToolkit.Barcode.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.Reporting.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Report.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.Business.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.Business.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.DBModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.DBModels.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Caller.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Common.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Common.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Business.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.DBModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.DBModels.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.ServiceModels.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Register.IServices.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.Reporting.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\Telerik.Reporting.xml
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Report.pdb
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.Customer.Report.dll.config
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\bin\Debug\KP.eService.Business.XmlSerializers.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.csproj.CopyComplete
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.dll
+C:\Projects\KP.Register\KP.Register.API\KP.Register.Business\obj\Debug\KP.Register.Business.pdb

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.75" name="LoyaltyValue">
+  <DataContextMoniker Name="/LoyaltyValueDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ab6d72c4-d800-4c0a-be2b-8492734b12bb" absoluteBounds="0.5, 0.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/View_LVHolder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8990d79a-5a50-4b10-bedb-2cd8f540347c" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13b3eb77-f478-4287-ae3f-349a3d97ea30" absoluteBounds="2.75, 0.625, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/View_LVCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee926745-86ae-4bc1-81d4-d83c54ef2f8c" absoluteBounds="2.7649999999999997, 1.085, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aca678c5-5133-4d17-9f49-a433f2862fc4" absoluteBounds="5.375, 0.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/LVData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ef37a38-c04e-48e8-986b-c8400e9392a9" absoluteBounds="5.39, 1.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e2c38a8-b5eb-451b-8c7a-401b26b8c1c4" absoluteBounds="5.5, 3.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/MAST_Value" />
+      <nestedChildShapes>
+        <elementListCompartment Id="580f9e8b-e46d-4055-ad8f-b38439499667" absoluteBounds="5.515, 3.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.4375 : 3.5); (6.4375 : 2.97280110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LoyaltyValueDataContext/MAST_Value/MAST_Value_LVData" />
+      <nodes>
+        <classShapeMoniker Id="6e2c38a8-b5eb-451b-8c7a-401b26b8c1c4" />
+        <classShapeMoniker Id="aca678c5-5133-4d17-9f49-a433f2862fc4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5a057004-df8c-480c-9f4a-a04d68125a81" absoluteBounds="2.875, 5.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/MAST_UpgradeCond" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb19f7c0-38d9-4c8f-8809-390e18c0eab3" absoluteBounds="2.8899999999999997, 5.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85287074-06c4-404e-95c8-4452fc8e034e" absoluteBounds="5, 7.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/MAST_LVCardType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8f5d577-2272-4e45-b006-147d26476a4d" absoluteBounds="5.015, 7.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.15625 : 7.125); (5.15625 : 3.17049944173177); (4.75 : 3.17049944173177)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LoyaltyValueDataContext/MAST_LVCardType/MAST_LVCardType_View_LVCard" />
+      <nodes>
+        <classShapeMoniker Id="85287074-06c4-404e-95c8-4452fc8e034e" />
+        <classShapeMoniker Id="13b3eb77-f478-4287-ae3f-349a3d97ea30" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b369faa2-a339-4a03-b92a-3a795cb6ed96" absoluteBounds="2.5, 7.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/MAST_Reason" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e875b3d-9d8f-4530-a99a-dd2107f3664b" absoluteBounds="2.5149999999999997, 7.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="846f744b-ab11-4cea-aa33-cc22f7899f0e" absoluteBounds="7.125, 7.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/MAST_CardGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8d8efa2-58a4-4824-9df9-addfb6d8b6c6" absoluteBounds="7.1400000000000006, 7.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.34375 : 7.125); (8.34375 : 3.36820277669271); (6.52083333333333 : 3.36820277669271 : JumpStart); (6.35416666666667 : 3.36820277669271 : JumpEnd); (5.23958333333333 : 3.36820277669271 : JumpStart); (5.07291666666667 : 3.36820277669271 : JumpEnd); (4.75 : 3.36820277669271)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LoyaltyValueDataContext/MAST_CardGroup/MAST_CardGroup_View_LVCard" />
+      <nodes>
+        <classShapeMoniker Id="846f744b-ab11-4cea-aa33-cc22f7899f0e" />
+        <classShapeMoniker Id="13b3eb77-f478-4287-ae3f-349a3d97ea30" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7539d3c6-2e32-459d-8fec-94f8ba8bf5ff" absoluteBounds="0.5, 5.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LoyaltyValueDataContext/MAST_CardStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9dec31e-5c9e-4788-bcca-0f5455d3b836" absoluteBounds="0.51499999999999968, 5.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 5.28125); (2.78125 : 5.28125); (2.78125 : 4.3189111328125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LoyaltyValueDataContext/MAST_CardStatus/MAST_CardStatus_View_LVCard" />
+      <nodes>
+        <classShapeMoniker Id="7539d3c6-2e32-459d-8fec-94f8ba8bf5ff" />
+        <classShapeMoniker Id="13b3eb77-f478-4287-ae3f-349a3d97ea30" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

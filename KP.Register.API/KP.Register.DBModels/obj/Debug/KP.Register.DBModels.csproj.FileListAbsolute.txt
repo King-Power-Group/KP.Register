@@ -1,0 +1,12 @@
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\bin\Debug\KP.Register.DBModels.dll.config
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\bin\Debug\KP.Register.DBModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\bin\Debug\KP.Register.DBModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\bin\Debug\EntityFramework.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\bin\Debug\EntityFramework.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\obj\Debug\KP.Register.DBModels.csproj.CoreCompileInputs.cache
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\obj\Debug\KP.Register.DBModels.csproj.CopyComplete
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\obj\Debug\KP.Register.DBModels.dll
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\obj\Debug\KP.Register.DBModels.pdb
+D:\Project Kingpower\KP.Register\KP.Register.API\KP.Register.DBModels\obj\Debug\KP.Register.DBModels.csprojAssemblyReference.cache

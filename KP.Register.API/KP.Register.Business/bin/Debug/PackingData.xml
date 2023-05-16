@@ -1,0 +1,510 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PackingData
+</name>
+</assembly>
+<members>
+<member name="T:PackingData.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PackingData.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PackingData.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.CheckBoxExistedAndNotTrucked(PackingData.Contexts.PackingDataContext,System.String,System.String@)">
+ <summary>
+ 
+ </summary>
+ <param name="db"></param>
+ <param name="BoxNo"></param>
+ <param name="strError"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.Get_Pack(PackingData.Contexts.PackingDataContext,System.String,System.Boolean,System.Collections.Generic.List{PackingData.PackingBLEntities.PackingToBox}@,System.String@,System.String@)">
+ <summary>
+ Get_Pack() , Return ReturnClass with Byref PackList, strPickup and strSub
+ </summary>
+ <param name="dbPacking"></param>
+ <param name="strPack"></param>
+ <param name="ChkCombineIL"></param>
+ <param name="PackList"></param>
+ <param name="strPickup"></param>
+ <param name="strSub"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.Check_Dup(PackingData.Contexts.PackingDataContext,System.Boolean,System.Collections.Generic.List{PackingData.PackingBLEntities.PackingToBox},System.String,System.String,System.Boolean,System.Collections.Generic.List{PackingData.PackingBLEntities.PackToBoxError}@)">
+ <summary>
+ Check_Dup() ,From Pack list, 24-02-2016, New parameter bAllowMoveFromBox
+ </summary>
+ <param name="dbPacking"></param>
+ <param name="bChkCombineIL"></param>
+ <param name="bdsPack"></param>
+ <param name="strPickup"></param>
+ <param name="strSub"></param>
+ <param name="bAllowMoveFromBox"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.Check_Dup(PackingData.Contexts.PackingDataContext,System.Boolean,System.String,System.String,System.String,System.Boolean,PackingData.CommonEntities.ReturnOfPackToBox@)">
+ <summary>
+ Check_Dup() for each PackNo
+ </summary>
+ <param name="dbPacking"></param>
+ <param name="bChkCombineIL"></param>
+ <param name="pPackNo"></param>
+ <param name="strPickup"></param>
+ <param name="strSub"></param>
+ <param name="bAllowMoveFromBox"></param>
+ <param name="RetSavePack"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.SavePackListToBox(System.String,System.String,System.Collections.Generic.List{PackingData.PackingBLEntities.PackingToBox},System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ SavePackListToBox() For Lenso without parameter dbServerKey
+ </summary>
+ <param name="pBranch"></param>
+ <param name="pBoxNo"></param>
+ <param name="PackingData"></param>
+ <param name="UserCode"></param>
+ <param name="bCombineImportLocal"></param>
+ <param name="bAllowMovePackFromBox"></param>
+ <param name="HoldBox"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.SavePackListToBox(System.String,System.String,System.String,System.Collections.Generic.List{PackingData.PackingBLEntities.PackingToBox},System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ SavePackListToBox() For Lenso ignore dbServerKey
+ </summary>
+ <param name="dbServerKey"></param>
+ <param name="pBranch"></param>
+ <param name="pBoxNo"></param>
+ <param name="PackingData"></param>
+ <param name="UserCode"></param>
+ <param name="bCombineImportLocal"></param>
+ <param name="bAllowMovePackFromBox"></param>
+ <param name="HoldBox"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.SavePackListToBox(PackingData.Contexts.PackingDataContext,System.String,System.String,System.Collections.Generic.List{PackingData.PackingBLEntities.PackingToBox},System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ SavePackListToBox() for KPI
+ </summary>
+ <param name="db"></param>
+ <param name="pBranch"></param>
+ <param name="pBoxNo"></param>
+ <param name="PackingData"></param>
+ <param name="UserCode"></param>
+ <param name="bCombineImportLocal"></param>
+ <param name="HoldBox"></param>
+ <param name="bAllowMovePackFromBox"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.GetBoxInformation(System.String,SharedOld.mdlTbag.enmBarCodeType)">
+ <summary>
+ BoxInformation for Lenso without parameter dbServerKey
+ </summary>
+ <param name="strBoxNo"></param>
+ <param name="intBarCodeType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.GetBoxInformation(System.String,System.String,SharedOld.mdlTbag.enmBarCodeType)">
+ <summary>
+ BoxInformation for Lenso ignore dbServerKey
+ </summary>
+ <param name="dbServerKey"></param>
+ <param name="strBoxNo"></param>
+ <param name="intBarCodeType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.BoxBL.GetBoxInformation(PackingData.Contexts.PackingDataContext,System.String,SharedOld.mdlTbag.enmBarCodeType)">
+ <summary>
+ BoxInformation for KPG
+ </summary>
+ <param name="db"></param>
+ <param name="strBoxNo"></param>
+ <param name="intBarCodeType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.CommonBL.GetHangNoPrefix(PackingData.Contexts.PackingDataContext,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="db"></param>
+ <param name="BranchNo"></param>
+ <returns>Hang no Prefix store in returnclass.ReturnString </returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.CommonBL.LockPickUp(System.String,System.String,System.String)">
+ <summary>
+ Try to lock specific Pickup counter
+ </summary>
+ <param name="PickupCode"></param>
+ <returns>Error message</returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.CommonBL.LockPickUp(System.String,System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Lock multiple pickup
+ </summary>
+ <param name="PickupCode">list of pickup code</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.PackingBL.GetPacking(PackingData.Contexts.PackingDataContext,System.String,System.String,System.DateTime)">
+ <summary>
+ For frmConVer_PK
+ </summary>
+ <param name="db"></param>
+ <param name="pBranch"></param>
+ <param name="pPack"></param>
+ <param name="dt"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.PackingBL.ConsolidateVerSave(PackingData.Contexts.PackingDataContext,System.String)">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.PackingBL.SavePackingRunner(PackingData.Contexts.PackingDataContext,System.String,System.Int64,System.String,System.String,System.DateTime)">
+ <summary>
+ For frmConVer_PK to save table PK_PackingRunner
+ </summary>
+ <returns></returns>
+ <remarks>By Robot, 17-11-2015</remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.CanAddNewHangingType(PackingData.Contexts.PackingDataContext,System.String,System.String,System.String)">
+ <summary>
+ Check can add new hanging type to specific pickup
+ </summary>
+ <param name="Pickup"></param>
+ <param name="HangingType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.GetListOfHangingType(PackingData.Contexts.PackingDataContext)">
+ <summary>
+ Get list of hanging type
+ </summary>
+ <param name="db"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.GetListOfPickup(PackingData.Contexts.PackingDataContext,System.String,System.Boolean)">
+ <summary>
+ Get list of pickup counter
+ </summary>
+ <param name="db"></param>
+ <param name="ShowCodeAndName">set true to display like "PU01-East"</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.AllocateHanging(PackingData.Contexts.PackingDataContext,System.String,System.String,System.String,System.Int32,System.Boolean,System.String)">
+ <summary>
+ Allocate hanging
+ </summary>
+ <param name="db"></param>
+ <param name="Pickup"></param>
+ <param name="HangType"></param>
+ <param name="Qty">IsAddMode = true : Add Qty to Total current hanging otherwise Qty is Total New Hanging</param>
+ <param name="IsAddMode">IsAddMode = true : Add Qty to Total current hanging</param>
+ <returns>Error message , blank = success</returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.TransferPackNo(PackingData.Contexts.PackingDataContext,System.String,System.String,System.Collections.Generic.List{PackingData.HangingBLEntities.TransferENT},System.String,System.String,System.String,System.String)">
+ <summary>
+ Transfer Packing no. ret.ReturnLong is TFHeaderKey
+ </summary>
+ <param name="FromPickup">blank for receive in</param>
+ <param name="ToPickup">blank for Issue</param>
+ <param name="TransferType">Transfer type (get from MasterBL.TransferType)</param>
+ <param name="UserCode"></param>
+ <returns>ret.ReturnLong is TFHeaderKey</returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.GetHangingStatus(PackingData.Contexts.PackingDataContext,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Get list of hanging status by pickupcode, hangingtype
+ </summary>
+ <param name="dbMain"></param>
+ <param name="strBranchNo">leave blank to select all data</param>
+ <param name="strPickupCode">leave blank to select all pickup</param>
+ <param name="strHangType">leave blank to select all hanging type</param> 
+ <param name="DisplayHangingTypeName">set True will shop Hanging type name (false won't but faster)</param>
+ <returns>return all haging type</returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.RequestHanging(PackingData.Contexts.PackingDataContext,System.String,System.String,System.String,System.Collections.Generic.List{PackingData.HangingBLEntities.HangingRequestENT},System.Boolean,PackingData.HangingBLEntities.HangingStatus)">
+ <summary>
+ Request Hanging no
+ </summary>
+ <param name="dbHang">datacontext of New_Hanging</param>
+ <param name="Pickup"></param>
+ <param name="HangingType">Will automatic change when dbHang is offline type</param>
+<param name="SubKey"></param>
+ <param name="isIntransit">Set intransit status to hanging destination</param>
+ <param name="HStatus">Hanging Status</param>
+ <returns>Return Class</returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.HangingBL.IsTranferTypeInGroup(PackingData.Contexts.PackingDataContext,System.String,System.String)">
+ <summary>
+ Check  TFTypeCode is in  TFTypeGroup
+ </summary>
+ <param name="db "></param>
+ <param name="TFTypeCode"></param>
+ <param name="TFTypeGroup"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.BusinessLayer.MasterBL.SurroGateGroup.OpaqTFHeader">
+ <summary>
+ Opaq transfer doc headerkey
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.BusinessLayer.PickupWebBL.SaveData(PackingData.Contexts.PackingDataContext,System.Collections.Generic.List{PackingData.PickupWebEntities.OrderHeader},PackingData.BusinessLayer.EnvEntity)">
+ <summary>
+ 
+ </summary>
+ <param name="db"></param>
+ <param name="OrdHdr"></param>
+ <param name="env"></param>
+ <returns></returns>
+ <remarks></remarks>
+ ErrorCode 0 = Success
+ ErrorCode 1 = No Data
+ ErrorCode 2 = df_sohdr not found 
+ ErrorCode 3, 4 SubmitChanges Error
+</member>
+<member name="P:PackingData.ErrorMessage.FreeText(System.String)">
+ <summary>
+ Free text
+ </summary>
+ <param name="MessageText"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.ChangeConflictException">
+ <summary>
+ Concurrency update error ({1})
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.PackNoIsNotFound(System.String,System.String)">
+ <summary>
+ Opaque '{0}' is not found. ({1})
+ </summary>
+ <param name="PackNo">Pack no</param>
+ <param name="InSomthing">supress ({1}) when blank</param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.PackNoIsInTransit(System.String)">
+ <summary>
+ "Opaque '{0}' in transit."
+ </summary>
+ <param name="PackNo">Pack no</param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.BranchIsNoFound(System.String)">
+ <summary>
+ Branch '{0}' is not found.
+ </summary>
+ <param name="Branch"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.NoMainHangSet">
+ <summary>
+ There are no main hanging branch has set.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.MainHangMoreThanOne">
+ <summary>
+ There are more than one main hanging branch has set.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.PickUpHasLocked(System.String,System.String,System.DateTime)">
+ <summary>
+ Pickup: {0} has already been lock by {1} at {2:dd/MM/yyyy hh:mm:ss}
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.PickUpNotFound">
+ <summary>
+ Pickup: {0} is not found.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.HangingHeaderIsNotFound">
+ <summary>
+ Hanging header is not found.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.NoEnoughHangingToRemove(System.Int32)">
+ <summary>
+ No enough hanging to remove ({0} hangings can remove).
+ </summary>
+ <param name="HangingLeft"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.HangTypeNotAllowTFIn(System.String)">
+ <summary>
+ Not allow to transfer in hanging type ({0}).
+ </summary>
+ <param name="HangingTypeName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PackingData.ErrorMessage.HangingIsNotEnough(System.String,System.String)">
+ <summary>
+ There are not enough Hanging space for '{0} type ({1})'.
+ </summary>
+ <param name="Pickup"></param>
+ <param name="HangType"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.ITHelper.GetServerTime(System.Data.Linq.DataContext)">
+ <summary>
+ parameter :time from server
+             
+ </summary>
+ <remarks>by : Keng</remarks>
+ <returns>
+ datetime
+ </returns>
+</member>
+<member name="M:PackingData.ITHelper.SetValueToProperty(System.Object,System.String,System.Object,System.Object[])">
+ <summary>
+ Set value to exits property (Use Refection)
+ </summary>
+ <param name="Obj">Object</param>
+ <param name="PropertyName"></param>
+ <param name="value"></param>
+ <param name="index">optional index values for indexed properties. This value shuld be null for non-indexed properties</param>
+ <returns>true if seccess </returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.ITHelper.GetValueFromProperty(System.Object,System.String,System.Object[])">
+ <summary>
+ 
+ </summary>
+ <param name="Obj"></param>
+ <param name="PropertyName"></param>
+ <param name="index"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.ITHelper.CopyEntity``1(``0,``0)">
+ <summary>
+ Copy data from entity source to dest
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="source"></param>
+ <param name="dest"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.ITHelper.CopyEntity``1(``0,``0,System.Collections.Generic.List{System.String})">
+ <summary>
+ 
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="source"></param>
+ <param name="dest"></param>
+ <param name="ExceptField">list of field that will not copy </param>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.ITHelper.GetPKColumn(System.Object)">
+ <summary>
+ Get set of primarykey column from enity T
+ </summary>
+ <typeparam name="T"></typeparam>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:PackingData.ITHelper.DateOnly(System.DateTime)">
+ <summary>
+ Get date from datetime
+ </summary>
+ <param name="dt"></param>
+ <returns></returns>
+ <remarks>By keng</remarks>
+</member>
+<member name="M:PackingData.ITHelper.StringTimeToDate(System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="sTime"></param>
+ <returns></returns>
+ <remarks>By Liam</remarks>
+</member>
+<member name="M:PackingData.ITHelper.TimeToString(System.DateTime,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="Time"></param>
+ <param name="blnSecond"></param>
+ <returns></returns>
+ <remarks>By Liam</remarks>
+</member>
+<member name="M:PackingData.ITHelper.LINQToDataTable``1(System.Collections.Generic.IEnumerable{``0})">
+ <summary>
+ 
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="iEnumerableList"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LoyaltyValue" Class="LoyaltyValueDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=devdata;Initial Catalog=LoyaltyValue;Persist Security Info=True;User ID=sa" SettingsObjectName="KP.Register.DBModels.Properties.Settings" SettingsPropertyName="LoyaltyValueConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.View_LVHolder" Member="View_LVHolders">
+    <Type Name="View_LVHolder">
+      <Column Name="LVNumber" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ename" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="tname" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="sex" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="date_of_birth" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="id_card" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="program_id" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="subprogram_id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="passport_no" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="country_code" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="mobile1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="del_flag" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="TempCard" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="mobile2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="apply_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_LVCard" Member="View_LVCards">
+    <Type Name="View_LVCard">
+      <Column Name="LVCard" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CardGroupCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="LVNumber" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="emboss_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="start_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="end_date" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="valid_term" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="issue_date" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="CardStatus" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="reason_id" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="shopping_card" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="card_type_id" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Note" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="MAST_LVCardType_View_LVCard" Member="MAST_LVCardType" ThisKey="card_type_id" OtherKey="card_type_id" Type="MAST_LVCardType" IsForeignKey="true" />
+      <Association Name="MAST_CardGroup_View_LVCard" Member="MAST_CardGroup" ThisKey="CardGroupCode" OtherKey="CardGroupCode" Type="MAST_CardGroup" IsForeignKey="true" />
+      <Association Name="MAST_CardStatus_View_LVCard" Member="MAST_CardStatus" ThisKey="CardStatus" OtherKey="CardStatus" Type="MAST_CardStatus" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LVData" Member="LVDatas">
+    <Type Name="LVData">
+      <Column Name="LVMainKey" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LVNumber" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ValueCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="LVValue" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Column Name="ValidDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ExpireDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IsCanceled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="MAST_Value_LVData" Member="MAST_Value" ThisKey="ValueCode" OtherKey="ValueCode" Type="MAST_Value" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_Value" Member="MAST_Values">
+    <Type Name="MAST_Value">
+      <Column Name="ValueCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ValueName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Column Name="ValueTypeCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ValueShortName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AllowBranch" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsCanceled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsCorporate" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsBirthDay" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="MAST_Value_LVData" Member="LVDatas" ThisKey="ValueCode" OtherKey="ValueCode" Type="LVData" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_UpgradeCond" Member="MAST_UpgradeConds">
+    <Type Name="MAST_UpgradeCond">
+      <Column Name="BaseCardId" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UpgradeCardId" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AccuSale" Type="System.Decimal" DbType="Decimal(14,2) NOT NULL" CanBeNull="false" />
+      <Column Name="IsCancel" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_LVCardType" Member="MAST_LVCardTypes">
+    <Type Name="MAST_LVCardType">
+      <Column Name="card_type_id" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="card_type_code" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="discount" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="require_ref" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="card_group_id" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="del_flag" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Association Name="MAST_LVCardType_View_LVCard" Member="View_LVCards" ThisKey="card_type_id" OtherKey="card_type_id" Type="View_LVCard" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_Reason" Member="MAST_Reasons">
+    <Type Name="MAST_Reason">
+      <Column Name="reason_id" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="reason_desc" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="IsCanceled" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="remark" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_CardGroup" Member="MAST_CardGroups">
+    <Type Name="MAST_CardGroup">
+      <Column Name="CardGroupCode" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CardGroupName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IsNotLoyalty" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="OrderNo" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="MAST_CardGroup_View_LVCard" Member="View_LVCards" ThisKey="CardGroupCode" OtherKey="CardGroupCode" Type="View_LVCard" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAST_CardStatus" Member="MAST_CardStatus">
+    <Type Name="MAST_CardStatus">
+      <Column Name="CardStatus" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StatusCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="StatusName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="StatusMessage" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="MAST_CardStatus_View_LVCard" Member="View_LVCards" ThisKey="CardStatus" OtherKey="CardStatus" Type="View_LVCard" />
+    </Type>
+  </Table>
+</Database>
